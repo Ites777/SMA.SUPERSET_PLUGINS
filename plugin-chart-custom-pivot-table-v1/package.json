@@ -1,0 +1,29 @@
+{
+  "name": "@superset-ui/plugin-chart-custom-pivot-table-v1",
+  "version": "0.0.1",
+  "description": "Superset Chart - Custom Pivot Table",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@superset-ui/chart-controls": "*",
+    "@superset-ui/core": "*",
+    "@ant-design/icons": "^4.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "prop-types": "*"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.13.12",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1"
+  }
+}
